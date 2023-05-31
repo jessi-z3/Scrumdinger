@@ -34,6 +34,7 @@
 		CCAE823329103CBF00AA1068 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE823229103CBF00AA1068 /* TrailingIconLabelStyle.swift */; };
 		CCAE82352910443A00AA1068 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE82342910443A00AA1068 /* ScrumsView.swift */; };
 		CCAE823729104E9F00AA1068 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE823629104E9F00AA1068 /* DetailView.swift */; };
+		CCF192582A27D4B7009F06DA /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF192572A27D4B7009F06DA /* NewScrumSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		CCAE823229103CBF00AA1068 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		CCAE82342910443A00AA1068 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		CCAE823629104E9F00AA1068 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CCF192572A27D4B7009F06DA /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,21 +107,9 @@
 		CCAE81E9290F2D3200AA1068 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				CCAE823029102F5100AA1068 /* CardView.swift */,
-				CC66941F2910804C0032F9C5 /* DetailEditView.swift */,
-				CCAE823629104E9F00AA1068 /* DetailView.swift */,
-				CC488BB6291471F60081E39E /* HistoryView.swift */,
-				CCACEF162912E2A700975CDE /* MeetingHeaderView.swift */,
-				CCACEF1E2912F30300975CDE /* MeetingFooterView.swift */,
-				CC488BB0291457990081E39E /* MeetingTimerView.swift */,
-				CCAE81EC290F2D3200AA1068 /* MeetingView.swift */,
+				CCF192552A276EC6009F06DA /* Views */,
 				CCAE81EA290F2D3200AA1068 /* ScrumdingerApp.swift */,
-				CCACEF182912E71000975CDE /* ScrumProgressViewStyle.swift */,
-				CCAE82342910443A00AA1068 /* ScrumsView.swift */,
-				CC488BB229145A220081E39E /* SpeakerArc.swift */,
-				CC66942329109B270032F9C5 /* ThemePicker.swift */,
-				CC669421291092340032F9C5 /* ThemeView.swift */,
-				CCAE823229103CBF00AA1068 /* TrailingIconLabelStyle.swift */,
+				CCF192562A276EF2009F06DA /* Styles */,
 				CCAE81EE290F2D3300AA1068 /* Assets.xcassets */,
 				CCAE81F829100FA400AA1068 /* Models */,
 				CCAE81F0290F2D3300AA1068 /* Preview Content */,
@@ -139,7 +129,10 @@
 		CCAE81F829100FA400AA1068 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC488BB6291471F60081E39E /* HistoryView.swift */,
 				CCACEF1C2912E7BE00975CDE /* AVPlayer+Ding.swift */,
+				CC488BB229145A220081E39E /* SpeakerArc.swift */,
+				CC66942329109B270032F9C5 /* ThemePicker.swift */,
 				CCAE822E2910162300AA1068 /* DailyScrum.swift */,
 				CC488BAE29144CDF0081E39E /* ErrorView.swift */,
 				CC488BAC29144C060081E39E /* ErrorWrapper.swift */,
@@ -150,6 +143,32 @@
 				CCAE81F929100FDF00AA1068 /* Theme.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CCF192552A276EC6009F06DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCAE823029102F5100AA1068 /* CardView.swift */,
+				CC66941F2910804C0032F9C5 /* DetailEditView.swift */,
+				CCAE823629104E9F00AA1068 /* DetailView.swift */,
+				CCACEF162912E2A700975CDE /* MeetingHeaderView.swift */,
+				CCACEF1E2912F30300975CDE /* MeetingFooterView.swift */,
+				CC488BB0291457990081E39E /* MeetingTimerView.swift */,
+				CCAE81EC290F2D3200AA1068 /* MeetingView.swift */,
+				CCAE82342910443A00AA1068 /* ScrumsView.swift */,
+				CC669421291092340032F9C5 /* ThemeView.swift */,
+				CCF192572A27D4B7009F06DA /* NewScrumSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCF192562A276EF2009F06DA /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CCACEF182912E71000975CDE /* ScrumProgressViewStyle.swift */,
+				CCAE823229103CBF00AA1068 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +254,7 @@
 				CCAE823729104E9F00AA1068 /* DetailView.swift in Sources */,
 				CC488BB1291457990081E39E /* MeetingTimerView.swift in Sources */,
 				CCACEF172912E2A700975CDE /* MeetingHeaderView.swift in Sources */,
+				CCF192582A27D4B7009F06DA /* NewScrumSheet.swift in Sources */,
 				CC488BAD29144C060081E39E /* ErrorWrapper.swift in Sources */,
 				CC6694202910804C0032F9C5 /* DetailEditView.swift in Sources */,
 				CCAE823329103CBF00AA1068 /* TrailingIconLabelStyle.swift in Sources */,
@@ -376,16 +396,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AG7M436GF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scrum Timer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "“Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.”";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your meeting in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,9 +417,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yellow-Bird.Scrumdinger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,16 +435,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AG7M436GF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scrum Timer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "“Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.”";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your meeting in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,9 +456,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yellow-Bird.Scrumdinger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
